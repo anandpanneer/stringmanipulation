@@ -3,8 +3,7 @@ package com.alternatecase;
 public class StringUtils {
 
 	public static String toAlternativeString(String input) {
-		String temp = input;
-		return convertToUpperOrLower(temp);
+		return convertToUpperOrLower(input);
 	}
 
 	private static String convertToUpperOrLower(String input) {
